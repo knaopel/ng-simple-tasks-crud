@@ -6,6 +6,7 @@ import { InMemoryWebApiModule } from "angular-in-memory-web-api";
 
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
+import{ArticleComponent}from './article.component';
 import { HelloComponent } from "./hello.component";
 import { TestData } from "./models/test-data";
 import { TodoComponent } from "./todo/todo.component";
@@ -22,6 +23,7 @@ import { TodoEditComponent } from "./todo-edit/todo-edit.component";
   ],
   declarations: [
     AppComponent,
+    ArticleComponent,
     HelloComponent,
     TodoComponent,
     TodoAddComponent,
