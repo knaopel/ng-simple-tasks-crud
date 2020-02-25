@@ -1,7 +1,7 @@
 import { NgModule } from "@angular/core";
 import { HttpClientModule } from "@angular/common/http";
 import { BrowserModule } from "@angular/platform-browser";
-import { FormsModule } from "@angular/forms";
+import { ReactiveFormsModule } from "@angular/forms";
 import { InMemoryWebApiModule } from "angular-in-memory-web-api";
 
 import { AppRoutingModule } from "./app-routing.module";
@@ -16,7 +16,7 @@ import { TodoEditComponent } from "./todo-edit/todo-edit.component";
 @NgModule({
   imports: [
     BrowserModule,
-    FormsModule,
+    ReactiveFormsModule,
     HttpClientModule,
     AppRoutingModule,
     InMemoryWebApiModule.forRoot(TestData)
